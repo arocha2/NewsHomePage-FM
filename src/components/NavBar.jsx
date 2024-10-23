@@ -23,8 +23,8 @@ export const NavBar = () => {
         <img src={iconMenuOpen} alt="menuIcon" />
       </div>
       <div
-        className={`transition-all duration-500 z-[1] md:z-auto md:static md:translate-x-0  w-[100%] absolute top-0 right-0  bg-zinc-400/40 h-full ${
-          menuOpen ? "translate-x-full" : "translate-x-0 "
+        className={`transition-all duration-500 z-[1] md:z-auto md:static md:translate-x-0  w-[100%] fixed  top-0 right-0  bg-zinc-400/40 h-full ${
+          menuOpen ? "translate-x-full  " : "translate-x-0  "
         } `}
       >
         <div
