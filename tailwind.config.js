@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        "inter-extrabold": ["inter-extrabold"],
+        "inter-regular": ["inter-regular"],
+      },
       colors: {
         "Soft-orange": "hsl(35, 77%, 62%)",
         "Soft-red": "hsl(5, 85%, 63%)",
