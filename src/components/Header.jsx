@@ -57,7 +57,7 @@ export const Header = () => {
       <div className="  text-[2.4em] md:text-[3.3em] w-[90%] leading-10 md:leading-[1em] tracking-wide font-inter-extrabold ">
         <p>The Bright Future of Web 3.0? </p>
       </div>
-      <div className=" leading-6 tracking-wide text-sm md:p-4 md:text-lg  text-Very-dark-blue">
+      <div className=" leading-6 tracking-wide text-sm md:p-4 md:text-lg  text-zinc-400">
         <p>
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it

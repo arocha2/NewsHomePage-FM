@@ -12,7 +12,7 @@ export const NavBar = () => {
   const menuList = ["Home", "New", "Popular", "Trending", "Categories"];
 
   return (
-    <nav className="flex items-center justify-between p-4">
+    <nav className="flex items-center justify-between px-4 py-14">
       <div>
         <img src={logo} alt="logo" />
       </div>
@@ -44,7 +44,7 @@ export const NavBar = () => {
             {menuList.map((menuLink) => (
               <p
                 key={menuLink}
-                className="text-zinc-900 hover:text-Soft-red hover:cursor-pointer transition-all"
+                className="text-zinc-400 hover:text-Soft-red hover:cursor-pointer transition-all"
               >
                 {menuLink}
               </p>
